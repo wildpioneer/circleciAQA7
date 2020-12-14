@@ -24,7 +24,7 @@ public class MainPageTest {
         driver.get("http://google.com");
 
         System.out.println(driver.getTitle());
-        Assert.assertEquals(driver.getTitle(), "Google");
+        Assert.assertEquals(driver.getTitle(), "Google1");
         driver.close();
     }
 }
